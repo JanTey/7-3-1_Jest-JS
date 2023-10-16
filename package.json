@@ -1,0 +1,45 @@
+{
+  "name": "jsaqa_3",
+  "version": "1.0.0",
+  "description": "jest test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "coverage": "jest --collectCoverage"
+  },
+  "keywords": [
+    "jest",
+    "test",
+    "jsaqa"
+  ],
+  "author": "ZhanTeivan",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/coverage/**",
+      "!**/.vscode/**"
+    ],
+    "coverageThreshold": {
+      "branches": 100,
+      "functions": 100,
+      "lines": 100
+    }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JanTey/7-3-1_Jest-JS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JanTey/7-3-1_Jest-JS/issues"
+  },
+  "homepage": "https://github.com/JanTey/7-3-1_Jest-JS#readme"
+}
